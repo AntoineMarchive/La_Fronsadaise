@@ -1,88 +1,204 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Découvrez l'univers de La Fronsadaise, des créations artisanales et éco-responsables, alliant passion, savoir-faire autodidacte et matériaux naturels. Chaque accessoire, vêtement et décoration est confectionné à la main, avec des matières nobles et durables, pour sublimer votre quotidien tout en soutenant l'artisanat local français."
+    />
+    <!-- Twitter meta tags-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="La Fronsadaise - Créations Artisanales Éco-Responsables"
+    />
+    <meta
+      name="twitter:description"
+      content="Explorez l'univers de La Fronsadaise, des créations artisanales et éco-responsables, conçues avec passion et savoir-faire pour embellir votre quotidien."
+    />
+    <meta name="twitter:image" content="URL_de_votre_image_de_préférence" />
+
+    <!-- Facebook meta tags-->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="La Fronsadaise - Créations Artisanales Éco-Responsables">
+    <meta property="og:description" content="Découvrez des créations artisanales et éco-responsables, alliant passion, savoir-faire et matériaux naturels pour sublimer votre quotidien.">
+    <meta property="og:image" content="URL_de_votre_image_de_préférence">
+    <meta property="og:url" content="URL_de_votre_site_web">
+    
+    <!-- Référencement local -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "La Fronsadaise ",
+          "image": "http://127.0.0.1:5500/assets/logos/la_fronsadaise_logo.webp",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "5 rue du général d'amade ",
+            "addressLocality": "Fronsac",
+            "postalCode": "33126",
+            "addressCountry": "France"
+          },
+          "telephone": "...",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"],
+              "opens": "10:00",
+              "closes": "19:00"
+            }
+          ],
+          "priceRange": "..€-...€"
+        }
+      </script>
+
     <link rel="stylesheet" href="./assets/style.css" />
     <script src="./assets/script.js" defer></script>
     <title>La Fronsadaise</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <h1>La Fronsadaise</h1>
-        <div class="header-logo">
-            <img class="logo" src="./assets/logos/la_fronsadaise_logo.webp" alt="logo La Fronsadaise">
-        </div>
-        <div class="header-nav">
-            <a href="#description">Description</a>
-            <a href="#galerie">Gallerie Photos</a>
-            <a href="#contact">Contact</a>
-        </div>
+      <h1>La Fronsadaise</h1>
+      <div class="header-logo">
+        <img
+          class="logo"
+          src="./assets/logos/la_fronsadaise_logo.webp"
+          alt="logo La Fronsadaise"
+        />
+      </div>
+      <div class="header-nav">
+        <a href="#description">Description</a>
+        <a href="#galerie">Gallerie Photos</a>
+        <a href="#contact">Contact</a>
+      </div>
     </header>
     <main class="main">
-        <section class="desription" id="description">
-            <h2>Présentation</h2>
-            <p>La Fronsadaise, une histoire de passion...
-                <br />
-                <br />
-                Bienvenue dans mon univers, celui de La Fronsadaise, où chaque accessoire, chaque article est le fruit de ma passion et de mon savoir-faire autodidacte.
-                <br /><br />
-                Amoureuse et passionnée par les belles matières, depuis mes premiers essais, j'ai exploré, appris et créé, m'inspirant de la richesse des matériaux naturels pour donner vie à des pièces uniques.
-                Chaque accessoire que je confectionne est une petite œuvre artisanale, réalisée à la main avec minutie et amour, soin et passion, pour ajouter une touche personnelle et originale à votre quotidien.
-                <br><br />
-                Ma démarche repose sur un savoir-faire authentique et sur une attention particulière aux détails. Chaque textile, qu'il s'agisse de sacs, de vêtements,
-                <br /><br />
-                d'accessoires pour le bien-être ou encore de décoration pour la maison, est confectionné à partir de tissus soigneusement sélectionnés, dans une démarche éco-responsable. Je privilégie des matières nobles, souvent issues de circuits courts ou du upcycling, dans une optique éthique et durable.
-                <br /><br />
-                En optant pour mes création « La Fronsadaise », vous choisissez bien plus qu'un simple produit : vous soutenez l'artisanat local Français, le respect de l'environnement et l'unicité.
-                Chaque création est le fruit d'une réflexion créative et d'un travail minutieux, pour offrir des pièces uniques, à la fois esthétiques, fonctionnelles et durables.
-                <br /><br />
-                Laissez-vous séduire par l'originalité et la qualité des articles « La Fronsadaise », conçus pour embellir votre quotidien tout en respectant et soutenant l'artisanat traditionnel.
-                </p>
-        </section>
-        <section class="galerie" id="galerie">
-            <h2>Galerie</h2>
-            <div class="galerie_container" id="galerie_container">
-                <div class="galerie_container_elle" id="galerie_container_elle"></div>
-                <div class="galerie_container_fouta" id="galerie_container_fouta"></div>
-                <div class="galerie_container_home" id="galerie_container_home"></div>
-                <div class="galerie_container_tout_doux_sacoches" id="galerie_container_tout_doux_sacoches"></div>
-                <div class="galerie_container_tout_doux_sac_polochon" id="galerie_container_tout_doux_sac_polochon"></div>
-            </div>
-        </section>
-        <section class="formulaire" id="contact">
-            <div class="contact-form-container">
-                <h2>Contactez-nous</h2>
-                <form action="mailto:antoine.marchive@orange.fr" method="POST" enctype="text/plain" class="contact-form">
-                    <label for="name">Nom :</label>
-                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
-                    
-                    <label for="email">Email :</label>
-                    <input type="email" id="email" name="email" placeholder="Votre email" required>
-                    
-                    <label for="message">Message :</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
-                    
-                    <button type="submit">Envoyer</button>
-                </form>
-            </div>
-        </section>
+      <section class="desription" id="description">
+        <h2>Présentation</h2>
+        <p>
+          La Fronsadaise, une histoire de passion...
+          <br />
+          <br />
+          Bienvenue dans mon univers, celui de La Fronsadaise, où chaque
+          accessoire, chaque article est le fruit de ma passion et de mon
+          savoir-faire autodidacte.
+          <br /><br />
+          Amoureuse et passionnée par les belles matières, depuis mes premiers
+          essais, j'ai exploré, appris et créé, m'inspirant de la richesse des
+          matériaux naturels pour donner vie à des pièces uniques. Chaque
+          accessoire que je confectionne est une petite œuvre artisanale,
+          réalisée à la main avec minutie et amour, soin et passion, pour
+          ajouter une touche personnelle et originale à votre quotidien.
+          <br /><br />
+          Ma démarche repose sur un savoir-faire authentique et sur une
+          attention particulière aux détails. Chaque textile, qu'il s'agisse de
+          sacs, de vêtements,
+          <br /><br />
+          d'accessoires pour le bien-être ou encore de décoration pour la
+          maison, est confectionné à partir de tissus soigneusement
+          sélectionnés, dans une démarche éco-responsable. Je privilégie des
+          matières nobles, souvent issues de circuits courts ou du upcycling,
+          dans une optique éthique et durable.
+          <br /><br />
+          En optant pour mes création « La Fronsadaise », vous choisissez bien
+          plus qu'un simple produit : vous soutenez l'artisanat local Français,
+          le respect de l'environnement et l'unicité. Chaque création est le
+          fruit d'une réflexion créative et d'un travail minutieux, pour offrir
+          des pièces uniques, à la fois esthétiques, fonctionnelles et durables.
+          <br /><br />
+          Laissez-vous séduire par l'originalité et la qualité des articles « La
+          Fronsadaise », conçus pour embellir votre quotidien tout en respectant
+          et soutenant l'artisanat traditionnel.
+        </p>
+      </section>
+      <section class="galerie" id="galerie">
+        <h2>Galerie</h2>
+        <div class="galerie_container" id="galerie_container">
+          <div class="galerie_container_elle" id="galerie_container_elle"></div>
+          <div
+            class="galerie_container_fouta"
+            id="galerie_container_fouta"
+          ></div>
+          <div class="galerie_container_home" id="galerie_container_home"></div>
+          <div
+            class="galerie_container_tout_doux_sacoches"
+            id="galerie_container_tout_doux_sacoches"
+          ></div>
+          <div
+            class="galerie_container_tout_doux_sac_polochon"
+            id="galerie_container_tout_doux_sac_polochon"
+          ></div>
+        </div>
+      </section>
+      <section class="formulaire" id="contact">
+        <div class="contact-form-container">
+          <h2>Contactez-nous</h2>
+          <form
+            action="mailto:antoine.marchive@orange.fr"
+            method="POST"
+            enctype="text/plain"
+            class="contact-form"
+          >
+            <label for="name">Nom :</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Votre nom"
+              required
+            />
+
+            <label for="email">Email :</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Votre email"
+              required
+            />
+
+            <label for="message">Message :</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Votre message"
+              required
+            ></textarea>
+
+            <button type="submit">Envoyer</button>
+          </form>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="footer_name">
-            <h3>Christelle Quelen Balan</h3>
-        </div>
-        <div class="footer-links">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                <img src="./assets/logos/logo_fb.jpeg" alt="Facebook">
-            </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                <img src="./assets/logos/logo_insta.jpeg" alt="Instagram">
-            </a>
-            <a href="https://www.festifronsac.fr" target="_blank" rel="noopener noreferrer">
-               festi-fronsac
-            </a>
-        </div>
+      <div class="footer_name">
+        <h3>Christelle Quelen Balan</h3>
+      </div>
+      <div class="footer-links">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./assets/logos/logo_fb.jpeg" alt="Facebook" />
+        </a>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./assets/logos/logo_insta.jpeg" alt="Instagram" />
+        </a>
+        <a
+          href="https://www.festifronsac.fr"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          festi-fronsac
+        </a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
