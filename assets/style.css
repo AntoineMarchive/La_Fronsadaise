@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
+    box-sizing: border-box;
 }
 
 section {
@@ -159,11 +160,48 @@ section {
 /* Formulaire */
 .contact-form-container {
     max-width: 400px;
+    width: 100%; /* Garantit que le formulaire prend toute la largeur disponible */
     margin: 20px auto;
     padding: 20px;
     background: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #fefefe;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
 }
 
 /* Footer */
@@ -174,8 +212,6 @@ section {
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
