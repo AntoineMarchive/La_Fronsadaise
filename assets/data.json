@@ -1,0 +1,101 @@
+{
+    "la_fronsadaise": [
+        {
+            "logo": "./assets/logos/la_fronsadaise_logo.webp",
+            "label": "logo La Fronsadaise"
+        }
+    ],
+
+    "collection_elle": [
+        {
+            "title": "Collection Elle 1",
+            "image": "./assets/images/elle/collection_elle_1.webp",
+            "label": "collection elle 1",
+            "price": "...€"
+        },
+        {
+            "title": "Collection Elle 2",
+            "image": "./assets/images/elle/collection_elle_2.webp",
+            "label": "collection elle 2",
+            "price": "...€"
+        },
+        {
+            "title": "Collection Elle 3",
+            "image": "./assets/images/elle/collection_elle_3.webp",
+            "label": "collection elle 3",
+            "price": "...€"
+        }
+    ],
+
+    "collection_fouta": [
+        {
+            "title": "Collection Fouta 1",
+            "image": "./assets/images/fouta/collection_fouta_1.webp",
+            "label": "collection fouta 1",
+            "price": "...€"
+        }
+    ],
+
+    "collection_home": [
+        {
+            "title": "Collection Home 1",
+            "image": "./assets/images/home/collection_home_1.webp",
+            "label": "collection home 1",
+            "price": "...€"
+        },
+        {
+            "title": "Collection Home 2",
+            "image": "./assets/images/home/collection_home_2.webp",
+            "label": "collection home 2",
+            "price": "...€"
+        }
+    ],
+
+    "collection_tout_doux_sacoches": [
+        {
+            "title": "Collection Tout Doux Sacoche 1",
+            "image": "./assets/images/tout_doux/sacoche/collection_tout_doux_sacoches_1.webp",
+            "label": "collection tout doux sacoche 1",
+            "price": "...€"
+        },
+        {
+            "title": "Collection Tout Doux mini Sacoche 1",
+            "image": "./assets/images/tout_doux/sacoche/collection_tout_doux_mini_sacoches_1.webp",
+            "label": "collection tout doux mini sacoche 1",
+            "price": "...€"
+        },
+        {
+            "title": "Collection Tout Doux mini Sacoche 2",
+            "image": "./assets/images/tout_doux/sacoche/collection_tout_doux_mini_sacoches_2.webp",
+            "label": "collection tout doux mini sacoche 2",
+            "price": "...€"
+        },
+        {
+            "title": "Collection Tout Doux mini Sacoche 3",
+            "image": "./assets/images/tout_doux/sacoche/collection_tout_doux_mini_sacoches_3.webp",
+            "label": "collection tout doux mini sacoche 3",
+            "price": "...€"
+        }
+    ],
+
+    "collection_tout_doux_sac_polochon": [
+        {
+            "title": "Collection Tout Doux Sac Polochon 1",
+            "image": "./assets/images/tout_doux/sac_polochon/collection_tout_doux_sac_polochon_1.webp",
+            "label": "collection tout doux sac polochon 1",
+            "price": "...€"
+        },
+        {
+            "title": "Collection Tout Doux Sac Polochon 2",
+            "image": "./assets/images/tout_doux/sac_polochon/collection_tout_doux_sac_polochon_2.webp",
+            "label": "collection tout doux sac polochon 2",
+            "price": "...€"
+        },
+        {
+            "title": "Collection Tout Doux Sac Polochon 3",
+            "image": "./assets/images/tout_doux/sac_polochon/collection_tout_doux_sac_polochon_3.webp",
+            "label": "collection tout doux sac polochon 3",
+            "price": "...€"
+        }
+    ]
+}
